@@ -1,0 +1,121 @@
+*{
+    /* padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; */
+    /* width: border(l&r)+content+oadding; */
+}
+/* .parent{
+    background-color: yellow;
+    margin: 16px; 
+    /* padding:16px; */
+    /* border: 1px solid #ccc;
+    /* margin: 16px; */
+    /* width: 60px;
+    box-sizing: border-box  ; */ 
+
+/* } */ 
+/* .heading{
+    margin :0px 20px 0px ;
+    padding : 16px;
+    border: 1px solid #ccc; */
+
+}
+/* .parent{
+    p{
+        background-color: red;
+        margin: 10px    }
+} */
+
+
+/* .center{
+    text-align: center;
+    background-color: aqua;
+    margin: 0 0 0 auto;
+    margin-top: 10px;
+}
+
+img{
+    display: block;
+    border: 1px solid black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    
+} */
+/* p{
+    background-color: blue;
+}
+#p1{
+    background-color: aqua;
+}
+.p2{
+    background-color: black;
+} */
+/* html{
+    font-size: 20px;  
+}
+.parent{
+    font-size: 10rem;
+}
+.child{
+    font-size: 20em;
+    background-color: aqua;
+    width: 10rem;
+}
+
+.btn{
+    display: block;
+    background-color: lightgray;
+    padding : 16px;
+    border-radius: 8px;
+    border: none ;
+    margin: 10px auto;
+    font-size: 16px;
+    width: 8em;
+}
+.btn-small{
+    font-size: 10px;
+}
+.btn-big{
+    font-size: 24px;
+} */
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 10px 32px;
+}
+ .parent ul{
+    /* ol{
+        background-color: red;
+        li:nth-child(2){
+            background-color: white;
+        }
+    }
+   
+        ul{
+            li:nth-of-type(2){
+                background-color: aqua;
+            }
+        }
+    
+    ul:last-child{
+        background-color: aqua;
+        li:nth-child(3){
+            background-color: yellow;
+        }
+    } */
+    background-color: blue;
+    color: white;
+    
+} 
+.parent>ol{
+    background-color: aqua;
+}
+
+.parent+ul{
+    background-color: yellow;
+}
+/* .child{
+    height: 100%;
+    background-color: aquamarine;
+}  */
