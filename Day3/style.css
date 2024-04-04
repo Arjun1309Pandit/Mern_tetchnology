@@ -1,0 +1,69 @@
+/* .parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+   background-color: blue;
+
+}
+.child{
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .header{
+grid-area: header;
+}
+.menu{
+    grid-area: menu;
+}
+.main{
+    grid-area: main;
+}
+.right{
+    grid-area: right;
+}
+.footer{
+    grid-area: footer;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: "header header  header  header header header "
+    "menu main main main right right "
+    "menu footer footer footer footer footer";
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+.grid-container>div{
+    background-color: yellow;
+    text-align: centrer;
+    padding: 20px 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* *{
+
+}
+.body{} */ 
+
+/* button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 8px 16px;
+    font-size: none;
+    border-radius: 8px;
+
+}
+button:hover{
+    background-color: yellow;
+} */
