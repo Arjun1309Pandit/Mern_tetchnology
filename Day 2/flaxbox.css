@@ -1,0 +1,42 @@
+.parent{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+.child{
+    background-color: aqua;
+    border: 1px solid red;
+    width: 100px;
+    
+}
+.logo{
+    align-self: flex-start;
+    padding: 40px 10px ;
+    order:2;
+}
+.cart{
+    order: 1;
+}
+
+
+/* .search-box{
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+.cart{
+    flex-grow: 1;
+} */ */
+
+.parent1{
+    justify-content: space-between;
+}
+.parent2{
+    justify-content: space-around;
+}
+.parent3{
+    justify-content: space-evenly;
+}
+.parent4{
+    justify-content: flex-end;
+}
