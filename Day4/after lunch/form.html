@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+
+</head>
+<body>
+    <div>
+        <form onsubmit="submitForm(event)" >
+            <label >fisrt name</label>
+            <input type="text" placeholder="first name" name="fistName" onchange="fisrtNamechange(event)"/><br><br>
+            <label>last  name</label>
+            <input type="text" placeholder="lastName" name="lastName"/><br><br>
+            <label>Age</label>
+            <input type="number" placeholder="age" name="age"/><br><br>
+            <label>Hoobies :</label> <br><br>
+            <label>Web development</label>
+            <input type="checkbox" placeholder="hobbies"  name="hobbies" value ="webD"/><br><br>
+            <label>Sports</label>
+            <input type="checkbox"  name="hobbies" value="sports"/><br><br>
+            <label>Drawing</label>
+            <input type="checkbox" name="hobbies" value="drawing"/><br><br>
+            <label>Gender :</label><br><br>
+            <label>male </label>
+            <input type="radio" name="gender" value="male"/>
+            <label>female </label>
+            <input type="radio" name="gender" value="female"/><br><br>
+            <button>Submit</button> 
+        </form>
+
+    </div>
+
+    <h2> H O F</h2>
+    <script src="form.js"> </script>
+    
+</body>
+</html>
